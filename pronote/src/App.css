@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(0, 98, 255, 0.921);
+  background-size: cover;
+}
+
+.input, .output {
+  flex: 1;
+  margin: 0 10px;
+  border: 1px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+.input h3, .output h3 {
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(227, 227, 227, 0.905);
+}
+
+.input-text {
+  width: 100%;
+  height: 200px;
+  border: none;
+  resize: none;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.output-text {
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: white;
+}
+
+.output{
+  background-color: rgba(47, 47, 47, 0.923);
+}
